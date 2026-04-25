@@ -8,3 +8,19 @@ Agentic Harness Agent = Model + Harness.  Harness engineering is how we build sy
 
 # References
 1. https://www.langchain.com/blog/the-anatomy-of-an-agent-harness
+
+
+# Bash + Code as a General Purpose Tool
+
+We want agents to autonomously solve problems without humans needing to pre-design every tool.
+
+The main agent execution pattern today is a ReAct loop, where a model reasons, takes an action via a tool call, observes the result, and repeats in a while loop. But harnesses can only execute the tools they have logic for.  Instead of forcing users to build tools for every possible action, a better solution is to give agents a general purpose tool like bash.
+
+Harnesses ship with a bash tool so models can solve problems autonomously by writing & executing code.
+
+Bash + code exec is a big step towards giving models a computer and letting them figure out the rest autonomously. The model can design its own tools on the fly via code instead of being constrained to a fixed set of pre-configured tools.
+
+Harnesses still ship with other tools, but code execution has become the default general-purpose strategy for autonomous problem solving.
+
+
+
