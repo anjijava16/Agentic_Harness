@@ -1,4 +1,19 @@
 # Agentic_Harness
+
+# Simple analogy
+1. The LLM = the brain
+2. The harness = the lab setup / testing rig / control system around it
+
+
+# Create a harness
+Quickly create a harness by defining your model, system prompt, and tools - no infrastructure setup required. Connect to built-in AgentCore capabilities like Browser, Memory, and Gateway, or bring your own tools via MCP servers and inline function definitions.
+1. Model
+2. System Prompt
+3. Tools/MCP
+4. SKILLS
+5. Invocation Limit
+
+
 Agentic Harness Agent = Model + Harness.  Harness engineering is how we build systems around models to turn them into work engines.  The model contains the intelligence and the harness makes that intelligence useful. We define what a harness is and derive the core components today's and tomorrow's agents need.
 
 
